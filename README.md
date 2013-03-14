@@ -1,4 +1,4 @@
 Shunya
 ======
 
-Official Website for solar Decathlon Team
+Official Website for Solar Decathlon Team (2014) from India
