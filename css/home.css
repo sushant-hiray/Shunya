@@ -1,0 +1,286 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: arial, helvetica, sans-serif;
+	background-image:url('../img/background.png'); 
+}
+a, img {
+    border:none;
+}
+a:link {text-decoration:none;}
+.full {
+	width: 100%;
+}
+ul
+{
+    list-style-type: none;
+	padding:0;
+	margin:0;
+}
+ul .team{
+	float: left;
+}
+/*.border_both {
+	border-right: 1px solid #999;
+	border-left: 1px solid #999;
+}*/
+
+#header_full {
+	padding: 0px;
+	margin: 0px;
+	/*background: #048640;
+	border-bottom: 5px solid #633207;*/
+}
+#slider{
+	display:none;
+	height:300px;
+}
+#header {
+	width:960px;
+	margin:0px auto;
+	padding: 0px 10px;
+}
+
+#content {
+	width:960px;
+	margin:0px auto;
+	padding: 10px 10px;
+}
+
+#footer_full {
+	padding: 0px;
+	margin: 0px;
+	/*background: #048640;
+	border-top: 5px solid #633207;*/
+}
+
+#footer {
+	width:960px;
+	margin:0px auto;
+	padding: 10px 10px;
+	/*border-right: 1px solid #048640;
+	border-left: 1px solid #048640;*/
+}
+
+h1 {
+	font-size: 22px;
+	font-family: arial, helvetica, sans-serif;
+	margin: 5px 0px;
+	color:#048640;
+}
+
+h2 {
+	font-size: 18px;
+	font-family: arial, helvetica, sans-serif;
+	color:#048640;
+	margin: 5px 0px;
+}
+
+.labelfont {
+	font-size:14px;
+	font-family: arial, helvetica, sans-serif;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: #048640;
+}
+
+.blue {
+	color: #2961b4;
+}
+
+.darkbrown {
+	color: #633207;
+}
+
+.stdtextbox {
+    width:200px;
+	border:1px solid #aaa;
+	border-radius:3px;
+	margin:6px 0px;
+}
+
+.stdbutton {
+	width:100px;
+	height:30px;
+	border:1px solid #aaa;
+	border-radius:3px;
+}
+
+p.small {
+	font-size: 10px;
+	padding: 3px 0px;
+	margin: 3px 0px;
+}
+
+span.small{
+	font-size: 7px;
+	padding: 3px 0px;
+	margin: 3px 0px;
+}
+
+#menu {
+	color: #000;
+	margin: 0px 0px 0px 0px;
+	float: left;
+	text-align: left;
+	width:881px;
+	/*height: 110px;*/
+	border-bottom: solid 1px #b8d2c4;
+	padding-bottom:5px;
+}
+
+#menu ul {
+	padding : 0px 0px 0px 20px;
+	margin: 82px 0px 0px 0px;
+	text-align:right;
+}
+#menu li {
+	display : inline;
+}
+#menu li a {
+	color: #048640;
+	margin-left: 32px;
+	text-decoration: none;
+	padding-bottom:5px;
+	/*padding : 0.75em 1.5em;*/
+}
+
+/*#menu ul li:first-child  a{
+	padding-bottom: 0px;
+}*/
+
+#menu li.selected a, #menu li a:hover {
+	border-bottom: #048640 2px solid;
+	/*color:#ffbe0b;*/
+}
+
+/*
+#menu img {
+	padding-bottom: 5px;
+}
+
+#menulist {
+	list-style-type: none;
+	display: inline;
+}
+
+#menu a:hover, #menu a.selected {
+	border-bottom: #333 2px solid;
+}*/
+
+#heading1 {
+	width: 620px;
+	height: auto;
+	overflow: auto;
+	margin-top: 50px;
+	font-size: 11px;
+	float: left;
+}
+
+
+
+#action_log {
+	width: 618px;
+	margin: 15px auto;
+	border-collapse: collapse;
+}
+
+#rel_links {
+	width:320px;
+	height: auto;
+	overflow: auto;
+	margin-top: 50px;
+	font-size: 11px;
+	float: right;
+}
+
+#done_log {
+	width: 320px;
+	margin: 15px auto;
+	border-collapse: collapse;
+}
+
+#assign_actions {
+	width: 620px;
+	height: auto;
+	max-height:400px;
+	overflow: auto;
+	margin-top: 25px;
+	font-size: 11px;
+	float: left;
+}
+
+#edit_actions {
+	width: 960px;
+	height: auto;
+	overflow: auto;
+	margin-top:25px;
+	font-size: 14px;
+	float: left;
+}
+
+.para {
+	font-size: 12px;
+	text-align: justify;
+	font-family: arial, helvetica, sans-serif;
+}
+/*Social Icons*/
+#rel_links ul.socialicons {
+	list-style: none;
+	overflow: auto;
+}
+#rel_links ul.socialicons li {
+	width: 32px;
+	height: 33px;
+	padding: 0 5px 0 0;
+	float: left;
+}
+#rel_links  ul.socialicons li a {
+	width: 32px;
+	height: 33px;
+	display: block;
+	background: url(../img/social.png) no-repeat; 
+}
+#rel_links a, u {
+    text-decoration: none;
+}
+
+#rel_links ul li a:hover{
+	color: #0a4506;
+	text-decoration:underline;
+}
+
+#rel_links  ul.socialicons li a.facebook 		{ background-position: 0 -73px; }
+#rel_links  ul.socialicons li a.facebook:hover 	{ background-position: -38px -73px; }
+#rel_links  ul.socialicons li a.twitter 		{ background-position: 0 -109px; }
+#rel_links  ul.socialicons li a.twitter:hover 	{ background-position: -38px -109px; }
+#rel_links ul.socialicons li a.youtube 		{ background-position: 0 -219px; }
+#rel_links ul.socialicons li a.youtube:hover 	{ background-position: -38px -219px; }
+#rel_links ul.socialicons li a.linkedin 		{ background-position: 0 -292px; }
+#rel_links ul.socialicons li a.linkedin:hover 	{ background-position: -38px -292px; }
+
+#team  tr td {
+	font-size:14px;
+	padding-top:10px;
+}
+
+/*NIVO SLIDER CSS*/
+.nivoSlider {
+    position:relative;
+    background:url(images/loading.gif) no-repeat 50% 50%;
+}
+.nivoSlider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+.nivoSlider a {
+    border:0;
+    display:block;
+}

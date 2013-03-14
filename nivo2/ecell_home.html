@@ -1,0 +1,1641 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+<title>The Entrepreneurship Cell, IIT Bombay - Homepage</title>
+<!-- fC_ifWwyrggwGtqHHQLXqZg-e7g  -->
+<base href="http://ecell.in/" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="http://platform.twitter.com/anywhere.js?id=U0d8W9hr28Tv8TytxjxrWg&v=1" type="text/javascript"></script> 
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script> 
+<script type="text/javascript" src="script.js"></script>
+<script type="text/javascript" src="jquery.simpletube-min.js"></script>
+<script type="text/javascript" src="jquery.swfobject.1-1-1.min.js"></script>
+<script type="text/javascript" src="jquery.form.js"></script> 
+
+<link href="jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js" type="text/javascript"></script>
+<script src="jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="jquery.mousewheel.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+(function($) {
+	$(function() {
+		$('#videoholder2').simpletube({displaytype: 'user', feedid: 'entrepreneurshipcell', activeclass: 'currentvideo'});
+	});
+})(jQuery);
+</script>
+
+<style type="text/css">
+#videoholder2 {width: 580px; height: 295px; }
+.videoholder { float: left; width: 390px; height: 295px; }
+.videothumbnails { float: right; width: 175px; height: 290px; overflow: auto; overflow-x: hidden; }
+.videothumbnails div { width: 150px; margin: 0 0 12px 0; padding: 2px; text-align: center; cursor: pointer; }
+.videothumbnails div.active { background: #F00; }
+.videothumbnails div.currentvideo { background: #eaf2f9; }
+pre { padding: 10px; border: 1px solid #333; background: #FFC; }
+</style>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+	//$("ul.subnav").parent().append("<span></span>"); //Only shows drop down trigger when js is enabled - Adds empty span tag after ul.subnav
+	
+	$("ul.topnav a").hover(function() { //When trigger is clicked...
+		
+		//Following events are applied to the subnav itself (moving subnav up and down)
+		$(this).parent().find("ul.subnav").slideDown('fast').show(); //Drop down the subnav on click
+
+		$(this).parent().hover(function() {
+		}, function(){	
+			$(this).parent().find("ul.subnav").slideUp('fast'); //When the mouse hovers out of the subnav, move it back up
+		});
+
+		//Following events are applied to the trigger (Hover events for the trigger)
+		}).hover(function() { 
+			$(this).addClass("subhover"); 
+			
+			//On hover over, add class "subhover"
+		}, function(){	//On Hover Out
+			$(this).removeClass("subhover"); //On hover out, remove class "subhover"
+	});
+
+});
+
+
+$(document).ready(function() {
+	$.featureList(
+	$("#tabs li a"),
+	$("#output li"), {
+		start_item	:	1
+		}
+	);
+
+	/*
+	
+	// Alternative
+		
+	$('#tabs li a').featureList({
+		output			:	'#output li',
+		start_item		:	1
+	});
+	*/
+});
+
+
+$(document).ready(function() {
+
+	//Default Action
+	$(".tab_content").hide(); //Hide all content
+	$("ul.tabs li:first").addClass("active").show(); //Activate first tab
+	$(".tab_content:first").show(); //Show first tab content
+	
+	//On Click Event
+	$("ul.tabs li").click(function() {
+		$("ul.tabs li").removeClass("active"); //Remove any "active" class
+		$(this).addClass("active"); //Add "active" class to selected tab
+		$(".tab_content").hide(); //Hide all tab content
+		var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+		$(activeTab).fadeIn(); //Fade in the active content
+		return false;
+	});
+
+});
+
+</script>
+
+
+<!--[if IE]>
+    <style type='text/css' media='screen'>
+    .ec3_ec {
+     background-image:none;
+     filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='wp-content/plugins/event-calendar/ec.png');
+    }
+    #ec3_shadow0, ec3_shadow1, ec3_shadow2{ background-image:none }
+    #ec3_shadow0 div{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='wp-content/plugins/event-calendar/shadow0.png',sizingMethod='scale') }
+    #ec3_shadow1    { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.ecell.in/wp-content/plugins/event-calendar/shadow1.png',sizingMethod='crop') }
+    #ec3_shadow2 div{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.ecell.in/wp-content/plugins/event-calendar/shadow2.png',sizingMethod='scale') }
+    </style>
+<![endif]-->
+       
+<meta name='NextGEN' content='1.7.4' />
+    
+
+
+   
+
+<!--[if IE]>
+    <style type='text/css' media='screen'>
+    .ec3_ec {
+     background-image:none;
+     filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.ecell.in/wp-content/plugins/event-calendar/ec.png');
+    }
+    #ec3_shadow0, ec3_shadow1, ec3_shadow2{ background-image:none }
+    #ec3_shadow0 div{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.ecell.in/wp-content/plugins/event-calendar/shadow0.png',sizingMethod='scale') }
+    #ec3_shadow1    { filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.ecell.in/wp-content/plugins/event-calendar/shadow1.png',sizingMethod='crop') }
+    #ec3_shadow2 div{ filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.ecell.in/wp-content/plugins/event-calendar/shadow2.png',sizingMethod='scale') }
+    </style>
+<![endif]-->
+
+       
+<meta name='NextGEN' content='1.7.4' />
+
+
+<link rel="stylesheet" type="text/css" href="style-home.css" />
+
+<style type="text/css">
+/* header */
+body {
+	background-color: none;
+	color: #7a7766;
+	font-family: Verdana, Tahoma, Arial;
+	margin: 0 auto;
+	padding: 0;
+	word-spacing:1px;
+	size:100%;
+}
+
+#content{
+	margin: 0 auto;
+	width:960px;
+	padding-top:-6px;
+	background:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	padding-bottom:50px;
+	border-left-style:solid;
+	border-left-width:1px;
+	border-right-style:solid;
+	border-right-width:1px;
+	border-left-color:#acc9df;
+	border-right-color:#acc9df;
+	}
+
+#main {
+	background:#e9f2f9;
+	color:black;
+        font-size:12px;
+	width:100%;
+	text-align: left;
+	margin: 0px auto 0 auto;;
+		}
+/* top menu ka style*/
+.menu1 {position:relative; text-align:right;}
+.menu1 ul {list-style:none; text-align:right; z-index:10; position:absolute; z-index:100; padding:-15px 5px}
+.menu1 li {float:left}
+.menu1 a, .menu1 a:active, .menu1 a:visited {text-decoration:none; color:#afcadd; padding-top:-3px; padding-left:10px; padding-right:10px;}
+.menu1 a:hover {color:#ebf0e6}
+#slide {position:absolute; top:-4px;  width:100%; height:4px; background:#afcadd; z-index:10}
+
+.content{	
+	width:906px;
+	height:auto;
+	background:#ffffff;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;
+}
+
+.page{	
+	width:900px;
+	background:none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#highlight {
+	background-color:#333333;
+	width:100%;
+	height:4px;
+	margin: 0;
+}
+
+#header_fullwidth {
+	background:#005596;
+	width:100%;
+	height:120px;
+}
+#header {
+	background:#005596;
+	width:960px;
+	height:120px;
+	margin: 0 auto 0 auto;
+}
+
+#header h1 {
+
+
+	display: block;
+	width:180px;
+	height:86px;
+	text-decoration:none;
+	margin:0px;
+	margin-top:-8px;
+	cursor:pointer;
+}
+
+#search {
+	
+	width:200px;
+	height:45px;
+	text-align:right;
+	float:right;
+	font-size:6px;
+	margin-top:8px;
+}
+
+/* body main */
+
+
+#footer {
+	
+	color:#5b4525;
+	height:auto;
+	width:100%;
+	text-align: left;
+	margin:0px 0 0 0;
+}
+
+#footer a:link,.credit a:visited,,.credit a:hover {
+	color: #7a7766;
+	text-decoration:none;
+}
+
+#footer h2{}
+
+.one{
+	background:url(images/footer_h1.jpg) no-repeat 0px 48px;
+	width:169px;
+	height:69px;
+	padding:auto;
+	margin:15px 35px 0 0;
+	float:left;
+	display:block;
+	}
+
+/* footer */
+/* typography style */
+
+a {	color: #477090;text-decoration:none;}
+a img
+a:visited {	color: #477090;}
+a:hover {	color: #477090; text-decoration:none;}
+
+h1 {
+	background:none;
+	margin: 25px 0 0px 0;
+	padding:0 0 0 30px;
+	color:#2f2414;
+	height:35px;}
+
+/*h2 {
+	margin: 5px 0 2px 0;
+	padding-bottom: 2px;
+	color:#000;
+font-size:14px;
+}*/
+
+
+h3 {
+	margin-top: 0px;
+	margin-bottom:0px;
+	padding: 0px 0 0 0;
+}
+
+
+p, li { line-height:18px;}
+
+.basictab {
+	margin:0px 0 0 0px;
+    float:left;
+    width:100%;
+    line-height:normal;
+	height:60px;
+	cursor:hand;
+	
+    }
+i.e. .basictab{margin:0 0 0 0; }
+	  
+.basictab ul {
+	  margin:0;
+	  padding:10px 0px 0 0px;
+	  list-style:none;
+	  
+      }
+
+/*nivo slider css*/
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff url(themes/default/loading.gif) no-repeat 50% 50%;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	position:absolute;
+	left:50%;
+	bottom:4px;
+        margin-left:-40px;
+       
+}
+.theme-default .nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(themes/default/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.theme-default .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(themes/default/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-default .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-default .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+    color:#fff;
+}
+
+.nivoSlider {
+	margin-top:21px;
+	margin-bottom:-25px;
+	position:relative;
+	border:solid; border-width:3px; border-color:#b8d2c4;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:6;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	background:#000;
+	color:#fff;
+	opacity:0.8; /* Overridden by captionOpacity setting */
+	width:100%;
+	z-index:8;
+}
+.nivo-caption p {
+	padding:5px;
+	margin:0;
+}
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	top:45%;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-prevNav {
+	left:0px;
+}
+.nivo-nextNav {
+	right:0px;
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+}
+.nivo-controlNav a.active {
+	font-weight:bold;
+}
+
+
+.theme-default .nivoSlider {
+	position:relative;
+	background:#fff url(themes/default/loading.gif) no-repeat 50% 50%;
+    -webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+}
+.theme-default .nivoSlider img {
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+}
+.theme-default .nivoSlider a {
+	border:0;
+	display:block;
+}
+
+.theme-default .nivo-controlNav {
+	position:absolute;
+	left:50%;
+	bottom:4px;
+        margin-left:-40px;
+       
+}
+.theme-default .nivo-controlNav a {
+	display:block;
+	width:22px;
+	height:22px;
+	background:url(themes/default/bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+}
+.theme-default .nivo-controlNav a.active {
+	background-position:0 -22px;
+}
+
+.theme-default .nivo-directionNav a {
+	display:block;
+	width:30px;
+	height:30px;
+	background:url(themes/default/arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+}
+.theme-default a.nivo-nextNav {
+	background-position:-30px 0;
+	right:15px;
+}
+.theme-default a.nivo-prevNav {
+	left:15px;
+}
+
+.theme-default .nivo-caption {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.theme-default .nivo-caption a {
+    color:#fff;
+    border-bottom:1px dotted #fff;
+}
+.theme-default .nivo-caption a:hover {
+    color:#fff;
+}
+
+/*********************************************/
+	  
+.basictab .sifr{cursor:pointer;text-decoration:none; font-weight:bold;}
+.basictab li {
+      display:inline;
+      margin:0;
+      padding:auto;
+	  cursor:hand;
+	        }
+	  
+.basictab a {
+      float:right;
+      /*background:url("images/tableft.gif") no-repeat left top;*/
+      margin:0;
+      padding:0px 0 0 5px;
+      text-decoration:none;
+	  overflow:hidden;
+	  background-color:#333333
+
+      }
+.basictab a span {
+      float:right;
+      display:block;
+      /*background:url("images/tabright.gif") no-repeat right top;*/
+	  background-color:#333333;
+      padding:4px 0px 4px 0px;
+      color:#fff;
+	  width:140px;
+	  overflow:hidden;
+	        }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+.basictab a span {float:none;overflow:hidden;}
+    /* End IE5-Mac hack */
+.basictab a:hover span {
+      color:#fff;
+	  overflow:hidden;
+	  background-color:#005596;
+      }
+.basictab a:hover {
+      background-position:0% -42px;
+	  background-color:#005596;
+      }
+.basictab a:hover span {
+      background-position:100% -42px;
+	  
+      }
+	  
+.basictab li.selected a{ /*selected tab effect*/
+
+      background:url("images/tableft.gif") no-repeat left top;
+      margin:0;
+      padding:0 0 0 4px;
+      text-decoration:none;
+	  
+}
+
+.basictab li.selected span{ /*selected tab effect*/
+      display:block;
+      background:url("images/tabright.gif") no-repeat right top;
+      padding:5px 15px 4px 6px;
+      color:#fff;
+	  
+}	 
+
+.basictab li.selected a:hover {
+      background-position:0% -42px;
+      }
+.basictab li.selected a:hover span {
+      background-position:100% -42px;
+      } 
+
+#navmenu ul {margin: 0; padding: 7px 0px 0px 0px; list-style-type: none; list-style-image: none; }
+#navmenu li {display: inline; margin-right:54px; padding:0px; font-size:15px; font-family:Verdana, Arial, sans-serifs}
+#navmenu ul li a {text-decoration:none;  margin: 0px; padding: 0px 20px 5px 20px; color: #d0d0d0; background: none;}
+#navmenu ul li a:hover {color:#d0d0d0; margin: 0px; background:#333333; }
+	  
+.submenustyle{
+/*background:#666666;*/
+margin:-2px 0px 0 117px;
+padding: 2px 2px 0 2px;
+width:350px;
+display: none;
+float:left;
+overfow:hidden;
+position:absolute;
+text-align:center;
+}
+.flashtitle {
+			text-align: left;
+		}
+* html .submenustyle{ /*IE only width definition*/
+width: 630px;
+margin:-42px 0px 0 120px;
+}
+
+i.e. .submenustyle{width: 500px;
+margin:0 -40px 0 0;}
+
+.submenustyle a{
+background-color:#666666;
+padding: 1px 8px 0 8px;
+text-decoration: none;
+color: #f6f6f6;
+}
+.submenustyle a:visited{
+padding: 1px 8px 0 8px;
+text-decoration: none;
+color: #f6f6f6;
+}
+
+.submenustyle a:hover{
+padding: 1px 8px 0 8px;
+color: #191919;
+}
+
+.submenustyle li{
+text-decoration: none;
+margin:-4px;
+margin-top:-3px;
+font-size:14px;
+display: inline;
+cursor:pointer;
+}
+
+/* slider css*/
+#slider {
+    position:relative;
+    width:900px; /* Change this to your images width */
+    height:291px; /* Change this to your images height */
+    background:url(themes/default/loading.gif) no-repeat 50% 50%;
+	/*border-style:solid;
+	border-width:3px;
+	border-color:#afcabd;*/
+}
+#slider img {
+    position:absolute;
+    top:0px;
+    left:0px;
+    display:none;
+}
+#slider a {
+    border:0;
+    display:block;
+}
+
+
+
+#main_menu {
+	z-index:2;
+}
+
+ul.topnav {
+	list-style: none;
+	padding: 0 32px;	
+	margin: -1px 0 -2px 0;
+	float: left;
+	width: 960px;
+	background: none;
+	font-size: 1.2em;
+	z-index:66;
+/*	background: url(topnav_bg.gif) repeat-x;  */
+}
+ul.topnav li {
+	float: left;
+	margin: 0;	
+	padding: 0 50px 0 50px;
+	position: relative; /*--Declare X and Y axis base--*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:13px;
+}
+ul.topnav li a{
+	padding: 10px 23px;
+	color:white;
+	display: block;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover{
+	color:#e9af00;
+	/*	#e98500 background: url(topnav_hover.gif) no-repeat center top; */
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 10px;
+	height: 35px;
+	float: left;
+	background: url(subnav_btn.gif) no-repeat center top;
+}
+ul.topnav li span.subhover {background-position: center bottom; cursor: pointer;} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	text-align:left;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	top: 35px;
+	background:#333333;
+	margin: 0;
+	padding: 0;
+	display: none;
+	float: left;
+	width: 170px;
+
+	-moz-border-radius-bottomleft: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border: 1px solid #111;
+	z-index:66;
+	
+	
+	
+	
+	
+	
+}
+ul.topnav li ul.subnav li{
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+	font-weight:normal;
+	border-top: 1px solid #252525; /*--Create bevel effect--*/
+	border-bottom: 1px solid #444; /*--Create bevel effect--*/
+	clear: both;
+	width: 170px;
+	float:left;
+}
+
+
+ul.subnav li{
+	text-align:left;
+}
+
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 145px;
+
+/*	background: #333 url(wp-content/themes/wg/dropdown_linkbg.gif) no-repeat 10px center;  */
+	padding-left: 20px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+	background: #222 url(wp-content/themes/wg/dropdown_linkbg.gif) no-repeat 10px center; 
+	width: 128px;
+
+}
+
+
+.para { color: #222222; font-family:Verdana, Tahoma, Arial; font-size:12px;}
+
+
+/* blog ke liye special, abhi to direct hi ker rha hun  */
+.post-info, .entry, .postmeta{ color: #222222; font-family:Verdana, Tahoma, Arial; font-size:12px; text-align:justify;}
+.title { color: #024478; font-family:Arial, Helvetica, sans-serif;text-align:justify; font-size:16px;}
+.post {border: .2em solid #E9F2F9;.em solid #E9F2F9;.em solid #900; width: 660px; padding-left: 10px; margin-bottom:10px; }
+/* end of blog stuff*/
+
+.parah { color: #024478; font-family:Arial, Helvetica, sans-serif;text-align:justify; font-size:16px;}
+
+.nostyle { color:#d0d0d0; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:16px; line-height:1.5em; list-style-type:none; text-align:left;}
+
+
+</style>
+ 
+<script>
+  $(document).ready(function () {
+ 
+  $(".slideshow").animate({"margin-bottom":"0px"}, "slow");
+
+  $(".slideshow").animate({opacity:1}, "slow");
+
+
+$(".footr").hover(
+function() {
+$(this).stop().animate({"opacity": ".8"}, "fast");
+},
+function() {
+$(this).stop().animate({"opacity": "1"}, "slow");
+});
+
+
+$(".parah").hover(
+function() {
+$(this).stop().animate({"opacity": ".80"}, "fast");
+},
+function() {
+$(this).stop().animate({"opacity": "1"}, "slow");
+});
+
+
+$("ul.footr li").hover(
+function() {
+$(this).stop().animate({"opacity": ".6"}, "fast");
+},
+function() {
+$(this).stop().animate({"opacity": "1"}, "slow");
+});
+
+
+});
+  </script>
+
+
+<script src="cufon-yui.js" type="text/javascript"></script>
+		<script src="font5.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			Cufon.replace('h1'); 
+                        Cufon.replace('.parah', {fontWeight:'400',fontSize:'22px'});
+			Cufon.replace('h1.blaah', {fontWeight:'400',fontSize:'24px'}); 
+                        Cufon.replace('.boldhead', {fontWeight:'200',fontSize:'16px'});
+			Cufon.replace('lh', {fontWeight:'bold',fontSize:'18px'}); 
+			Cufon.replace('h3.parah', {fontWeight:'100',fontSize:'15px'}); 
+	                Cufon.replace('.quip h3', {fontWeight:'200',fontSize:'15px'}); 
+			Cufon.replace('.title a', {fontWeight:'400',fontSize:'18px'}); 
+			Cufon.replace('h2.parah', {fontWeight:'100',fontSize:'15px'}); 
+			Cufon.replace('h2.parah-12', {fontWeight:'100',fontSize:'12px'}); 
+<!-- Cufon.replace('.mainmenuh', {fontWeight:'400',fontSize:'14px',hover: {color: '#AFCADD'}}); -->
+
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24976441-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+
+
+
+</head>
+<body onload="menuSlider.init('menu1','slide')">
+<div id="highlight"></div>
+<div id="header_fullwidth">
+<div id="header">
+	
+<div class="menu1" style="color:#afcadd; font-family:Arial, Helvetica, sans-serif; font-size:13px; width:50%; height:30px; text-align:right; margin-left:54%;">
+    <div id="slide" style="left: 326px; width: 86px;"><!-- --></div>
+    <ul id="menu1" style="margin-top:2px;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="the-entrepreneurship-cell/associates">Associates</a></li>
+        <li><a href="archives">Archives</a></li>
+        <li><a href="the-entrepreneurship-cell/team">Our Team</a></li>
+        <li value="1"><a href="the-entrepreneurship-cell/contactus">Contact Us</a></li>
+    </ul>
+</div>
+
+<!--
+    <form id="search" method="get" action="">
+            <input type="text" name="s" onfocus="if(this.value != 'Search...'){} else { this.value='' ; }" onblur="if(this.value==''){ this.value='Search...' ; }" type="text" value="Search..." style="color:#0362a5;background-color: #afcadd;     border: solid 1px #0362a5;
+padding:2px;margin-right:24px;"   id="s" size="16" />
+    </form>
+
+-->
+
+        <a href="index.html" alt="The Entrepreneurship Cell, IIT Bombay" style="float:left;">
+<img src="data:image/png;base64,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" alt="Logo : ECell">
+
+</a>
+    <!-- begin sidebar -->
+</div>
+</div>
+
+
+	
+<div id="main_menu_full" style="width:100%; height:35px;background:#333333" align="center">
+	<div id="main_menu" style="width:960px;height:35px;">	
+		<ul class="topnav">
+			<li rel="cafe"><a href="#" class="mainmenuh" style="text-align:left;">ABOUT US</a>
+				<ul class="subnav">
+					<li><a href="about-the-entrepreneurship-cell/vision" >Vision</a></li>
+					<li><a href="about-the-entrepreneurship-cell/success">Success</a></li>
+					<li><a href="about-the-entrepreneurship-cell/history">History</a></li>
+					<li><a href="about-the-entrepreneurship-cell/testimonials">Testimonials</a></li>
+					<li><a href="about-the-entrepreneurship-cell/achievements">Achievements</a></li>
+				</ul>
+			</li>
+			<li><a href="#" class="mainmenuh">INITIATIVES</a>
+				<ul class="subnav">
+					<li><a href="eureka">Eureka!</a></li>
+					<li ><a href="esummit">E-Summit</a></li>
+					<li><a href="enbclub">EnB Club</a></li>
+					<li><a href="enspace">Enspace</a></li>
+					<li><a href="pitchit">Pitch It!</a></li>
+                                        <li><a href="idea-validation-platform">Idea Validation Platform</a></li>
+                                        <li><a href="cr">College Representatives</a></li>
+				</ul>
+			</li>
+			<li rel="store"><a href="#" class="mainmenuh">RESOURCES</a>
+				<ul class="subnav">
+					<li><a href="resources-the-entrepreneurship-cell/video-lectures">Video Lectures</a></li>
+					<li style="display:none"><a href="#">Reading Material</a></li>
+					<li><a href="resources-the-entrepreneurship-cell/external-links">External Links</a></li>
+					<li style="display:none"><a href="#">Resources Stagewise</a></li>
+				</ul>
+
+			</li>
+			<li rel="contact" style="margin-right:0px;" ><a href="#" class="mainmenuh">MEDIA</a>
+				<ul class="subnav">
+					<li><a href="media-the-entrepreneurship-cell/press-release">Press Release</a></li>
+					<li><a href="media-the-entrepreneurship-cell/news-articles">News Articles</a></li>
+					<li><a href="media.html">Media Coverage</a></li>
+				</ul>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<!-- end header -->
+<div id="main"  style="background:#E9F2F9 ">
+
+<!--url(wp-content/themes/wg/images/stripe_11007a3a73dd5d6293a1106b03e32c72.png) repeat-->
+
+	<div id="content">
+				
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" title="prettyPhoto main stylesheet" charset="utf-8" />
+		<script src="js/jquery.prettyPhoto.js" type="text/javascript" charset="utf-8"></script>
+	
+		<div class="content">
+			<div class="slideshow" style="margin-bottom:-360px;opacity:0;">
+				<div id="wrapper">
+					<div class="slider-wrapper theme-default">
+						<div class="ribbon"></div>
+						<div id="slider" class="nivoSlider">
+
+
+<!--<a href="http://ecell.in/eureka/" target="_blank"><img src="images/eureka/sliders/Slider-5.jpg" width="900" height="291" alt="" /></a>-->
+<!--<a href="http://ecell.in/enbclub/the-first-pitch" target="_blank"><img src="img/slider/firstpitch2.jpg" width="900" height="291" alt="" /></a>-->
+<a href="http://ecell.in/esummit/" target="_blank"><img src="http://ecell.in/Summit/images/slider_home/esummit13.png" width="899" height="291" alt="" />
+<a href="http://ecell.in/" target="_blank"><img src="images/common_images/common.jpg" width="900" height="291" alt="" /></a>
+
+<!--
+<a href="http://ecell.in/pitchit/" target="_blank"><img src="images/common_images/pitchit.jpg" width="900" height="291" alt="" /></a>-->
+
+
+
+<!-------------------------For Esummit --------------------------------------
+<a href="http://ecell.in/esummit/register/" target="_blank"><img src="images/summit/slider1.jpg" width="900" height="291" alt="" /></a>
+<a href="http://ecell.in/vsm/" target="_blank"><img src="images/summit/vsm_slider.jpg" width="900" height="291" alt="" /></a>
+<a href="http://ecell.in/esummit/register/" target="_blank"><img src="images/summit/yunus.jpg" width="900" height="291" alt="" /></a>
+<a href="http://ecell.in/esummit/register/" target="_blank"><img src="images/summit/slider4.jpg" width="900" height="291" alt="" /></a>
+<a href="http://ecell.in/esummit/register/" target="_blank"><img src="images/summit/slider5.jpg" width="900" height="291" alt="" /></a>
+------------------------------------------------------------------------------------>
+
+
+						</div>
+						<div id="htmlcaption" class="nivo-html-caption">
+							<strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+						</div>
+					</div>
+				</div>
+			</div>
+<div id="top_updates" style="width:900px; margin:45px auto;">
+<div id="updates_left" style="width:195px; height:60px; background:#afcadd; float:left;">
+<p class="para" style="font-weight:bold;text-align:center; margin:23px"><a href="/eureka/">Updates</a></p>
+</div>
+<div id="updates-mid" style="width:670px; background:#e9f2f9; float:left;margin-left:0px;padding-left:20px;">
+<p class="para" style="float:left;font-size:12px;">
+The registration for <a href="http://ecell.in/esummit">E-Summit 2013</a> has been started. <a href="http://ecell.in/esummit13/register">Click here</a> to register.<br/>
+Eureka 2012 finalists have been declared. Click <a href="http://ecell.in/eureka12/results/" >here</a>.
+</div>
+</div>
+		<div id="vision" style="height:290px; width:269px; margin:20px 0px 0px 0px; float:left;">
+			
+				<h3 class="parah" style="margin-top:8px;margin-bottom:17px;background:#005596;text-transform:uppercase;padding:10px;color:white;font-size:15px">The Entrepreneurship Cell</h3>
+<p class="para" style="text-align:left; margin-bottom:0px;">
+The Entrepreneurship Cell is a non-profit organization run by the students of IIT Bombay that aims at manifesting the latent entrepreneurial spirit of the young students. We at E-Cell hosts various workshops, speaker sessions, innovative games,competitions for aspiring entrepreneurs and support them by providing necessary resources such as seed funding, mentoring, consultancy and networking.</p>
+				<a href="about-ecell" style="font-size:11px;text-decoration:none;margin-top:-10px;"> Read more </a>
+			</div >
+			
+			<div id="events" style="height:290px; width:269px; margin:20px 0px 0px 40px; float:left;">
+				<h3 class="parah" style="margin-top:8px;margin-bottom:17px;background:#005596;text-transform:uppercase;padding:10px;color:white;font-size:15px">Our Initiatives</h3>
+				<p class="para" style="text-align:left;"><strong><a href="eureka">Eureka!: </a></strong>Asia's largest B-Plan Competition as recognized by Thomson Reuters.<br /><strong><a href="esummit">E-Summit:</a> </strong> The annual flagship event, a networking hub for corporates, professionals and budding entrepreneurs from all across the nation.<br /><strong><a href="enspace">EnSpace:</a></strong> The Entrepreneurship magazine.<br /><strong><a href="enbclub">EnB-Club:</a></strong> This new initiative aims to create an ecosystem for the budding entrepreneurs in the institute.
+
+</p>	
+			</div >
+
+
+<div id="updates" style="height:260px; width:269px; margin:20px 0px 0px 40px;overflow:hidden; float:left;">
+<h3 class="parah" style="margin-top:8px;margin-bottom:9px;background:#005596;text-transform:uppercase;padding:10px;color:white;font-size:12px">Updates</h3>
+	
+
+
+			<div id="mcs_container">
+	<div class="customScrollBox">
+		<div class="container">
+    		<div class="content">
+<p class="para" style="text-align:left; line-height:80%;"><strong>11.01.13:</strong>The registration for <a href="http://ecell.in/esummit">E-Summit<br/><br/>2013</a> has been started.<br/><br/><a href="http://ecell.in/esummit13/register">Click here</a> to register.<br /></p>			
+<p class="para" style="text-align:left; line-height:80%;"><strong>03.12.12:</strong>The registrations for Pitch It! <br><br /> 2012 have started.<br /><br />Click <a target="_blank" href="/pitchit/">here</a> for details.<br /></p>
+<p class="para" style="text-align:left; line-height:80%;"><strong>03.09.12:</strong>The registrations for Eureka! <br><br /> 2012 have started.<br /><br /> Click <a href="/eureka/">here</a> for details.<br /></p>
+<p class="para" style="text-align:left; line-height:80%;"><strong>14.07.12:</strong> Results of the Samsung <br /><br />Innovation Award 2012 declared.<br /><br /> Click <a href='http://ecell.in/samsung-innovation-award'>here</a> to view the shortlisted<br /><br /> entries.</p>
+<p class="para" style="text-align:left; line-height:80%;"><strong>20.04.12:</strong> Registrations are open for<br /><br /> <a href='http://ecell.in/samsung-innovation-award'> The Samsung Innovation Challenge</a>.</p>
+<p class="para" style="text-align:left; line-height:80%;"><strong>15.1.12:</strong><a href='http://ecell.in/vsm'> Registrations for Virtual <br /><br />Stock Market Game</a> have started.</p>
+<p class="para" style="text-align:left; line-height:80%;"><strong>15.1.12:</strong> The last date for <a href="http://ecell.in/esummit/bmh">BMH</a> entry <br /><br />submission has been extended to <br /><br />11:59 PM,<br /> <br />  17th January</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>01.12.11:</b>VCCircle event on angel <br /><br />Investment. You may <a href="http://ecell.in/vccircle"  target="_blank">view the Details here</a></p>
+<p class="para" style="text-align:left; line-height:80%;"><b>16.11.11:</b>Eureka! Results out! You <br /><br />may <a href="http://ecell.in/eureka"  target="_blank">view the results here</a></p>
+<p class="para" style="text-align:left; line-height:80%;"><b>5.11.11:</b>Idea validation session for<br /><br /> <a href="http://ecell.in/enbclub/pitchit/"  target="_blank">Pitch it</a></p>
+<p class="para" style="text-align:left; line-height:80%;"><b>8.10.11:</b><a href="http://ecell.in/enbclub/pitchit/" target="_blank">Pitch it</a> window open for<br /><br /> IIT Bombay students</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>4.10.11:</b>Eureka! Registration Closes</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>4.9.11:</b><a href="http://ecell.in/eureka/workshops/">Register for </a>B-Plan making <br /><br /> Workshop in your city.</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>1.9.11:</b>Eureka <a href="http://ecell.in/eureka">Registration</a> Starts</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>28.8.11:</b>Business Simulation Game<br /><br />- UG Students</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>27.8.11:</b>Business Simulation Game<br /><br />- PG & SOM Students</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>23.8.11:</b>TEDxIITB:<br /><br /> Essence of Changing World</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>22.8.11:</b> E&B-Club First Session<br><br>Topic: Basics of Entrepreneruship <br><br>Speaker: <a href="http://www.ted.com/profiles/300416"> Nandini Vaidyanathan</a></p>
+<p class="para" style="text-align:left; line-height:80%;"><b>18.8.11:</b><a href="http://events.vccircle.com/events_details.php?event_id=49&ntype=1"> VCCircle<br /><br /> E-Commerce Forum'11</a><br><br>Time: 9.30am - 6.00pm <br /><br />Venue: Trident BKC</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>17.8.11:</b> First All Team Meet.</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>2.8.11:</b> Freshmen Orientation.</p>
+<p class="para" style="text-align:left; line-height:80%;"><b>26.7.11:</b> Coordinator`s Meet.</p>
+
+            </div>
+		</div>
+		<div class="dragger_container">
+    		<div class="dragger"></div>
+		</div>
+	</div>
+</div>
+
+	
+							
+			</div>
+
+
+
+
+
+
+
+
+	<noscript>
+
+	<style type="text/css">
+
+		#mcs_container .customScrollBox{overflow:auto;}
+
+		#mcs_container .dragger_container{display:none;}
+
+	</style>
+
+</noscript>
+
+
+<script>
+
+$(window).load(function() {
+
+	mCustomScrollbars();
+
+});
+
+
+
+function mCustomScrollbars(){
+
+	/* 
+
+	1) scroll type (values: "vertical" or "horizontal")
+
+	2) scroll easing amount (0 for no easing) 
+
+	3) scroll easing type 
+
+	4) extra bottom scrolling space for vertical scroll type only (minimum value: 1)
+
+	5) scrollbar height/width adjustment (values: "auto" or "fixed")
+
+	6) mouse-wheel support (values: "yes" or "no")
+
+	7) scrolling via buttons support (values: "yes" or "no")
+
+	8) buttons scrolling speed (values: 1-20, 1 being the slowest)
+
+	*/
+
+	$("#mcs_container").mCustomScrollbar("vertical",300,"easeOutCirc",1.05,"auto","yes","yes",15); 
+
+}
+
+
+
+/* function to fix the -10000 pixel limit of jquery.animate */
+
+$.fx.prototype.cur = function(){
+
+    if ( this.elem[this.prop] != null && (!this.elem.style || this.elem.style[this.prop] == null) ) {
+
+      return this.elem[ this.prop ];
+
+    }
+
+    var r = parseFloat( jQuery.css( this.elem, this.prop ) );
+
+    return typeof r == 'undefined' ? 0 : r;
+
+}
+
+
+
+/* function to load new content dynamically */
+
+function LoadNewContent(id,file){
+
+	$("#"+id+" .customScrollBox .content").load(file,function(){
+
+		mCustomScrollbars();
+
+	});
+
+}
+
+</script>
+
+<script src="jquery.mCustomScrollbar.js"></script>
+
+<script type="text/javascript" src="jquery.tools.min.js"></script>
+<script type="text/javascript" src="custom-20110601.min.js"></script>
+
+<style type="text/css">
+#main_tabs {
+    position: relative;
+    float: right;
+    width: 268px;
+}
+#main_tabs_repeat {
+    position: relative;
+    float: left;
+    width: 269px;
+    margin: 50px 0 0 0;
+    background:#E9F2F9;
+}
+#main_tabs_bottom {
+    position: relative;
+    float: left;
+    width: 269px;
+    margin: 0;
+    height: 40px;
+    background: transparent url("css.images/hp_tabs_bottom_bg.png") 0 0 no-repeat;
+}
+#main_tabs_nav {
+    position: absolute;
+    top: -3px;
+    left: 0;
+    width: 322px;
+    height: 53px;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+#main_tabs_nav li {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background: none;
+    list-style-type:none;
+}
+#main_tabs_nav li a {
+    position: relative;
+    float: left;
+    margin: 0;
+    padding: 0;
+    height: 53px;
+    border: none;
+}
+#main_tabs_nav li.sn1 a {
+    width: 85px;
+    background: transparent url("css.images/hp_tabs_menu.png") 0 0 no-repeat;
+    text-indent: -9999px;
+}
+#main_tabs_nav li.sn1 a:hover, #main_tabs_nav li.sn1 a.active {
+    background: transparent url("css.images/hp_tabs_menu.png") 0 -53px no-repeat;
+}
+#main_tabs_nav li.sn2 a {
+    width: 91px;
+    background: transparent url("css.images/hp_tabs_menu.png") -85px 0 no-repeat;
+    text-indent: -9999px;
+}
+#main_tabs_nav li.sn2 a:hover, #main_tabs_nav li.sn2 a.active {
+    background: transparent url("css.images/hp_tabs_menu.png") -85px -53px no-repeat;
+}
+#main_tabs_nav li.sn3 a {
+    width: 91px;
+    background: transparent url("css.images/hp_tabs_menu.png") -176px 0 no-repeat;
+    text-indent: -9999px;
+}
+#main_tabs_nav li.sn3 a:hover, #main_tabs_nav li.sn3 a.active {
+    background: transparent url("css.images/hp_tabs_menu.png") -176px -53px no-repeat;
+}
+#divleftcontent0, #divleftcontent1, #divleftcontent2 {
+    position: relative;
+    float: left;
+    width: 322px;
+    height: 296px;
+    padding: 15px 0 0 0;
+}
+#divleftcontent1 table {
+    background: none;
+    border: none;
+    width: 280px;
+    margin: 0 auto 0 auto;
+}
+#divleftcontent1 table tr {
+    background: transparent url("css.images/hp_tabs_sep_line.png") 0 bottom repeat-x;
+}
+#divleftcontent1 table td {
+    background: none;
+    border: none;
+}
+#divleftcontent1 table a {
+    color: #a2b2c6;
+    text-decoration: none;
+    line-height: 2.3em;
+}
+#divleftcontent1 table a:hover {
+    color: #ef7f25;
+    text-decoration: underline;
+}
+#divleftcontent2 .scrollable4 {
+    position: relative;
+    overflow: hidden;
+    width: 245px;
+    height: 290px;
+}
+#divleftcontent2 .scrollable4 .items {
+    width: 20000em;
+    position: absolute;
+}
+#divleftcontent2 .scrollable4 h3 {
+    margin: 0;
+}
+#divleftcontent2 .items div {
+    float: left;
+}
+#divleftcontent2 .scrollablenavi {
+    height: 44px;
+    width: 268px;
+    position: absolute;
+    bottom: 43px;
+    z-index: 20;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#divleftcontent2 .scrollablenavi ul {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    list-style:none;
+}
+#divleftcontent2 .scrollablenavi li {
+    float: left;
+    padding: 0;
+    line-height: 1;
+    background: none;
+}
+#divleftcontent2 .browse.left {
+    width: 12px;
+    height: 12px;
+    float: left;
+    margin: 16px 5px 15px 5px;
+    background: transparent url("css.images/hp_testimonials_btns.png") 0 0 no-repeat;
+    display: inline-block;
+    font-size: 1px;
+    text-indent: -9999em;
+}
+#divleftcontent2 .browse.right {
+    width: 12px;
+    height: 12px;
+    float: right;
+    margin: 16px 5px 15px 5px;
+    background: transparent url("css.images/hp_testimonials_btns.png") -39px 0 no-repeat;
+    display: inline-block;
+    font-size: 1px;
+    text-indent: -9999em;
+}
+#divleftcontent2 .navi a {
+    width: 12px;
+    height: 12px;
+    float: none;
+    margin: 16px 5px 15px 5px;
+    background: transparent url("css.images/hp_testimonials_btns.png") -26px 0 no-repeat;
+    display: inline-block;
+    font-size: 1px;
+}
+#divleftcontent2 .navi a:hover {
+    background-position: -13px 0;
+}
+#divleftcontent2 .navi a.active {
+    background-position: -13px 0;
+}
+
+</style>
+
+
+
+					<div id="bosi" style="width:545px; height:340px; text-align:justify; padding:10px 10px 0px 20px;float:left; overflow:hidden; clear:both; margin-top:10px;background: #EAF2F9;" >
+
+
+<div style="float:left;color:#e9af00;">&nbsp;</div>
+<div style="float:left;"><img src="doublelines.png" /></div>
+<h1 class="parah" style="padding:0px 0px 0px 0px;">Resources</h1>
+
+<div style="float:left;" class="gallery clearfix" ><!-- BOSI Widget code -->
+<script type="text/javascript"><!--
+	bosi_site_id = 'kJqjM';
+	bosi_banner = '250x250.jpg';
+//-->
+</script>
+<script type="text/javascript" src="http://widget.bosidna.com/widget/all.js"></script>
+<!-- End of BOSI Widget code --></div>
+<div style="float:left;margin-left:30px;" class="gallery clearfix"><a href="http://www.youtube.com/watch?v=6n1v4YxdWHE" rel="prettyPhoto"><img src="marketing_101.jpg" width="250" height="250"/></a></div>
+<!--<div style="float:left;margin-left:41px;" class="gallery clearfix"><a href="http://www.youtube.com/watch?v=bGhMGLIpwV8" rel="prettyPhoto"><img src="vid1.jpg" /></a></div>-->
+
+<!--<div style="float:left;width:149px;overflow:hidden;"><h3 style="" class="parah"> Learn to Sell Your Product or Service</h3></div>
+<div style="float:left;width:149px;overflow:hidden;margin-left:33px;"><h3 style="" class="parah">Marketing 101</h3></div>
+<div style="float:left;width:149px;margin-left:33px;overflow:hidden;"><h3 style="" class="parah">How Venture Capital Works
+</h3></div>-->
+<div style="width:100%;text-align:right;clear:both;color:#e9af00;font-size:12px;"><br />
+<!--<a href="http://ecell.in/video-lectures"><b>Go to Resources</b></a>-->&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+
+	                </div>
+
+
+
+
+
+<div id="social"  style="height:345px; width:273px; margin:10px 0px 0px 36px;overflow:hidden; float:left;">
+
+<div id="main_tabs">
+	
+		<ul id="main_tabs_nav">
+			<li class="sn1"><a id="divleftlink0" rel="nofollow" href="javascript:divActivate(0,2,'divleft');" class="active">Newsletter</a></li>
+			<li class="sn2"><a id="divleftlink1" rel="nofollow" href="javascript:divActivate(1,2,'divleft');" class="inactive">Social</a></li>
+			<li class="sn3"><a id="divleftlink2" rel="nofollow" href="javascript:divActivate(2,2,'divleft');" class="inactive">Testimonials</a></li>
+		</ul>	
+		
+		<div id="main_tabs_repeat">
+		
+		<div id="divleftcontent0" style="display: block;">
+      
+       <br />
+			
+				<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fecell.in&amp;width=254&amp;colorscheme=light&amp;show_faces=false&amp;border_color&amp;stream=false&amp;header=true&amp;height=62" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:254px; height:62px;" allowTransparency="true"></iframe>		
+	<br />
+				<div id="twitter_follow" style="margin:15px;">
+					<a href="http://twitter.com/ecell_iitb" class="twitter-follow-button">Follow @ecell_iitb</a>
+					<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+				</div>			
+			
+				<div id="google_plus" style="margin:5px 0px 15px 15px;float:left;"><br />
+					<g:plusone size="medium" href="http://www.ecell.in/"></g:plusone>
+				</div>          
+			
+				<div id="linkedin_share" style="margin:35px 60px 15px 135px;">		
+					<script src="http://platform.linkedin.com/in.js" type="text/javascript"></script>
+					<script type="IN/Share" data-url="www.ecell.in" data-counter="right"></script>
+				</div>
+                                <div id="coolage" style="margin:-20px 0px 15px 15px;float:left;"><br />
+					<a target="_blank" href="http://www.coolage.in/college/mumbai/iit-bombay/" style="margin-top: -60px"><img src="img/12Sponsors/coolage_buddy.png" width="120px"/></a>
+				</div>
+			</div>
+			
+			<div id="divleftcontent1" style="display: none;">
+<h1 class="blaah" style="color:#e9af00"> SUBSCRIBE NOW! </h1>
+<div style="color:#005596;margin: 30px 30px 0px 30px;width: 200px;font-size: 11px;color: #005596;">
+Keep informed of news ,events and recent publications at E-Cell, IIT Bombay by subscribing to our Newsletter. 
+<br /><br /><br />
+<form id="myForm" action="comment.php" method="post" name="subscribe">
+<input onFocus="if(this.value != 'Enter Email Address'){} else { this.value='' ; }" onBlur="if(this.value==''){ this.value='Enter Email Address' ; }"  type="text" value="Enter Email Address" style="color:grey; width:170px;" name="name" /><button type="submit" style="margin-left:-5px;">></button>
+</form>
+<script type="text/javascript"> 
+        $(document).ready(function() { 
+            // bind 'myForm' and provide a simple callback function 
+            $('#myForm').ajaxForm(function() { 
+                alert("Thank you for subscribing."); 
+            }); 
+        }); 
+</script> 
+</div>
+
+			</div>
+			
+			<div id="divleftcontent2" style="display: none;">
+				
+        <div class="scrollable4">     
+                  
+          <div class="items">
+          
+                        <div>
+<div style="z-index:0;margin-left: -15px;"><img src="testi.jpg" style="margin-left:30px;" /></div>
+            <div style="margin-top: 10px;margin-left: -30px;font-size: 17px;">  <p class="para" style="font-size:15px;width: 180px;margin-right: 30px;">Made me feel very young. Very challenging questions make a very dynamic group.</p></div>
+<br />
+<div style="width:180px;text-align:right;"><br /><br /><h3 class="parah" style="width: 140px;margin-left: 80px;">Ronnie Screwvala</h3></div>
+<div style="clear:both;width: 230px;margin-top:-10px;text-align: right;">
+<p class="para">
+CEO,Founder Chairman<br/>
+UTV Group</p>
+</div>
+
+            </div>
+                        
+                                    
+          </div><!-- "items" ends -->
+        </div><!-- "scrollable" ends -->
+
+        <div class="scrollablenavi">
+          <ul>
+            <li><a class="left prev browse" href="javascript:;">&lt;</a></li>
+            <li class="navi"></li>
+            <li><a class="right next browse" href="javascript:;">&gt;</a></li>
+          </ul>
+        </div>
+        
+			</div>
+		
+		</div><!-- "main_tabs_repeat" ends -->
+		
+		<div id="main_tabs_bottom"></div><!-- "main_tabs_bottom" ends -->
+	
+	</div>
+
+
+
+
+
+		</div>
+			
+		</div>	
+<script type="text/javascript" charset="utf-8">
+  $(document).ready(function(){
+    $("a[rel^='prettyPhoto']").prettyPhoto();
+  });
+</script>
+	</div><!--closes content-->
+</div><!-- closes main -->
+
+
+<!-- begin footer -->
+<div id="footer">
+	<div id="sponsor_strip_full" style="width:100%; height:90px; background:#333333;">
+		<div id="sponsor_strip" style="width:900px; padding:0px 0px 0px 0px;margin:0px auto 0px auto;">
+			<img src="images/footer/findus.png" alt="Find us on" style="float:left; margin:38px 0px 0px 0px;"/>
+			<a href="http://www.facebook.com/ecell.in" style="margin:37px 0px 0px 24px; float:left;"><img src="images/footer/fb.png" alt="Facebook"/></a>
+			<a href="http://twitter.com/ecell_iitb" style="margin:37px 0px 0px 24px; float:left;"><img src="images/footer/twitter.png" alt="Facebook"/></a>
+			<a href="http://www.youtube.com/user/entrepreneurshipcell" style="margin:32px 0px 0px 24px; float:left;"><img src="images/footer/youtube.png" alt="YouTube"/></a>
+			<!--<img src="images/footer.png" width="899px" height="52px" alt="" usemap="#socialmap"/>
+			<map name="socialmap">
+				<area shape="rect" coords="335, 20, 440, 10" href="http://www.facebook.com/ecell.in" alt="Facebook" />
+				<area shape="rect" coords="515, 20, 610, 10" href="http://twitter.com/ecell_iitb" alt="Twitter" />
+				<area shape="rect" coords="690, 18, 755, 5" href="http://www.youtube.com/user/entrepreneurshipcell" alt="YouTube" />
+			</map>-->
+			<img src="images/footer/line.png" alt="" style="float:left; padding:0px; margin:37px 0px 0px 40px;" />
+			<img src="images/footer/stayUpdated.png" alt="" style="float:left; padding:0px; margin:37px 0px 0px 30px;" />
+			<!--
+			<form name="email_capture" id="email_capture" >
+				<input type="text" name="field" style="float:left; padding:0px; margin:36px 0px 0px 30px; width:204px; height:21px;border: 1px solid #333333; background:#cfe1f3; color:#333; font-size:12px;"/>
+			</form>-->
+			
+			<form name="email_capture" id="email_capture" style="float:left; padding:0px; margin:38px 0px 0px 24px; background:url(images/footer/box.png) no-repeat;width:207px; height:21px" >
+				<input type="text" name="field" id="field" style="float:left; padding:0px; width:178px; height:18px; background:none; color:#333; font-size:12px;" onFocus="if(this.value != 'Enter your email id'){} else { this.value='' ; }" onBlur="if(this.value==''){ this.value='Enter your email id' ; }"  type="text" value="Enter your email id"/>
+				<input type="image" id="submit" name="submit" src="images/footer/submit.png" style="float:left; margin:0px 0px 0px 3px;"/>
+			</form>
+		</div>
+	</div>
+	
+<script type="text/javascript"> 
+        $(document).ready(function() { 
+            // bind 'myForm' and provide a simple callback function 
+            $('#email_capture').ajaxForm(function() { 
+                alert("Thank you! We will mail all relevant information."); 
+            }); 
+        }); 
+</script> 
+
+	<div id="footer_menus_full" style="width:100%; height:270px;padding-top:30px; background:#025394;">
+		<div id="footer_menus" style="width:900px; margin:0px auto 0px auto;">
+			
+			<div id="footer_menu1" style="width:170px; float:left;margin-top:6px;margin-left:-36px;font-family:Verdana, Arial, Helvetica, sans-serif; ">
+				<ul class="footr">
+					<lh class="nostyle" style="font-size:10px;  padding-bottom:9px;"><a href="#" style="text-decoration:none; color:white;"><strong>About Us</strong></a></lh>
+<li class="nostyle" style="height:19px;" ></li>					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="about-the-entrepreneurship-cell/vision" style="text-decoration:none; color:white;">Vision</a></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="about-the-entrepreneurship-cell/success" style="text-decoration:none; color:white;">Success</a></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="about-the-entrepreneurship-cell/history" style="text-decoration:none; color:white;">History</a></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="about-the-entrepreneurship-cell/testimonials" style="text-decoration:none; color:white;">Testimonials</a></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="about-the-entrepreneurship-cell/achievements" style="text-decoration:none; color:white;">Achievements</a></li>  
+				</ul>
+			</div>
+			
+			<div id="footer_menu2" style="width:170px; float:left;margin-top:6px;">
+				<ul class="footr">
+					<lh class="nostyle" style="font-size:10px; padding-bottom:9px;"><a href="#" style="text-decoration:none; color:white;"><strong>Initiatives</strong></a></lh>
+<li class="nostyle" style="height:19px;" ></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="eureka" style="text-decoration:none; color:white;">Eureka!</a></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="esummit" style="text-decoration:none; color:white;">E-Summit</a></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="enbclub" style="text-decoration:none; color:white;">EnB Club</a></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="enspace" style="text-decoration:none; color:white;">EnSpace</a></li>
+				</ul>
+			</div>
+			
+			<div id="footer_menu3" style="width:170px; float:left;margin-top:6px;">
+				<ul class="footr">
+					<lh class="nostyle" style="font-size:10px; padding-bottom:9px;"><a href="#" style="text-decoration:none; color:white;"><strong>Resources</strong></a></lh>
+										<li class="nostyle" style="height:19px;" ></li>
+
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="resources-the-entrepreneurship-cell/video-lectures" style="text-decoration:none; color:white;">Video Lectures</a></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="resources-the-entrepreneurship-cell/external-links" style="text-decoration:none; color:white;">External Links</a></li>
+				</ul>
+			</div>
+
+
+<div id="footer_menu4" style="width:170px; float:left;margin-top:6px;">
+				<ul class="footr">
+					<lh class="nostyle" style="font-size:10px; padding-bottom:9px;"><a href="#" style="text-decoration:none; color:white;"><strong>Media</strong></a></lh>
+<li class="nostyle" style="height:19px;" ></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="media-the-entrepreneurship-cell/press-release" style="text-decoration:none; color:white;">Press Releases</a></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="media-the-entrepreneurship-cell/news-articles" style="text-decoration:none; color:white;">News Articles</a></li>
+					<li class="nostyle" style="font-size:10px; margin-bottom:5px;"><a href="#" style="text-decoration:none; color:white;">Media Coverage</a></li>
+				</ul>
+			</div>
+
+			
+			<div class="footr" id="footer_contact" style="width:256px; float:left; margin-top:9px;">
+				<p style="color:white; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; line-height:1.7em; text-align:right;"> 
+					The Entrepreneurship Cell,<br />
+					SAC, IIT Bombay, Powai,<br />
+					Mumbai-400076<br /><br />
+					Mail: <a href="mailto:ecell@iitb.ac.in?Subject=Sent%20from%20the%20website" style="text-decoration:none; color:#d0d0d0">ecell@iitb.ac.in</a> <br />
+					Tell: +91-22-25764044<br /><br />
+					
+				</p>
+			</div>
+			
+		</div>
+	</div>
+	
+</div>
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+
+
+
+<script type="text/javascript">
+$(window).load(function() {
+	$('#slider').nivoSlider({ effect:'fade',pauseTime: 6000,pauseOnHover:false });
+});
+
+</script>
+
+<!-- Google Code for leads Conversion Page
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 960893935;
+var google_conversion_language = "en";
+var google_conversion_format = "2";
+var google_conversion_color = "ffffff";
+var google_conversion_label = "JqbOCMnhgAMQ76eYygM";
+var google_conversion_value = 0;
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/960893935/?label=JqbOCMnhgAMQ76eYygM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+-->
+
+
+<!--
+<script src="http://script.opentracker.net/?site=www.ecell.in"></script> <noscript><a href="http://www.opentracker.net" target="_blank"> <img src="http://img.opentracker.net/?cmd=nojs&site=www.ecell.in" alt="Opentracker" border="0"> </a></noscript>
+-->
+<script type="text/javascript">
+adroll_adv_id = "346QK33KVJCMNGREED3XSK";
+adroll_pix_id = "XHESXGAVWRBNPHGCMTPEWZ";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+</body>
+</html>
